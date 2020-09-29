@@ -1,4 +1,3 @@
-var hostName = process.env.PRITUNL_HOSTNAME;
 //remove lingering Offline hosts
 db.hosts.remove({'status': 'offline'});
 //update hosts that arent the hostName to have the hostname
